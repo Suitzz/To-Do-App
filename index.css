@@ -1,0 +1,39 @@
+body {
+            font-family: Arial, sans-serif;
+            background-color: #EEDEBE;
+            margin: 0;
+            padding: 20px;
+        }
+        #app {
+            max-width: 400px;
+            margin: 0 auto;
+        }
+        input, button {
+            padding: 10px;
+            margin-right: 5px;
+        }
+        ul {
+            list-style: none;
+            padding: 0;
+        }
+        li {
+            background: #fff;
+            padding: 10px;
+            margin-bottom: 10px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        li.done {
+            text-decoration: none; /* No need for strikethrough anymore */
+        }
+        .checkbox {
+            margin-right: 10px;
+        }
+        .trash {
+            color: #9E1426;
+            cursor: pointer;
+        }
+        .trash:hover {
+            transform: scale(1.1);
+        }
